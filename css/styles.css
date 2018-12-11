@@ -1,0 +1,148 @@
+.videoContainer{
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+}
+
+/* videoContainer-header */
+.videoContainer div:first-child{
+	padding-left:100px; 
+	padding-right:100px; 
+}
+
+/* videoContainer-heade */
+.videoContainer div:first-child span{
+	color: white;
+}
+
+
+.videoContainer-videoContents{
+	display: flex;
+	justify-content: space-between;
+	height: 500px;
+	padding-left:100px; 
+	padding-right:100px; 
+	padding-bottom: 100px;
+}
+/* text inside videoContents */
+.videoContainer div:last-child div{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: white;
+	width: 40%;
+}
+
+/* news section */
+.news{
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+}
+.news-header{
+	padding-left: 100px;
+}
+.news-wrappers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 700px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+
+.news-wrappers >div{
+	width: 24%;
+	height: 500px;
+}
+/* potoebis chasma */
+.news-wrappers div:nth-child(1) div:first-child{
+	background-image: url("../images/news-img1.jpg");
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	height: 80%;
+}
+.news-wrappers div:nth-child(2) div:first-child{
+	background-image: url("../images/news-img2.jpg");
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	height: 80%;
+}
+.news-wrappers div:nth-child(3) div:first-child{
+	background-image: url("../images/news-img3.jpg");
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	height: 80%;
+}
+.news-wrappers div:nth-child(4) div:first-child{
+	background-image: url("../images/news-img4.jpg");
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	height: 80%;
+}
+/* textis dasma potoebis qvemot */
+.news-wrappers >div div:last-child{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:20%;
+	width: 100%;
+}
+
+
+
+/* media */
+.media{
+background-color: pink;
+display: flex;
+flex-direction: column;	
+}
+.news-header{
+	padding-left: 100px;
+}
+
+.media-wrappers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 700px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.media-wrappers div:first-child{
+	width: 44%;
+	height: 500px;
+	display: flex;
+	border: solid;
+	background-color: red;
+}
+.media-wrappers div:last-child{
+	width: 44%;
+	height: 200px;
+	display: flex;
+	border: solid;
+	background-color: red;
+}
+
+
+
+/* .media-wrappers div:nth-child(2){
+	width: 44%;
+	height: 500px;
+	display: flex:;
+	border: solid;
+} */
+
+/* shvili phototi da textit */
+
+
+
+
+
