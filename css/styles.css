@@ -1,3 +1,23 @@
+/*top navigation*/
+.navigation{
+	display: flex;
+	align-content:space-between;
+}
+.navigation div{
+	width: 40%;
+	margin-left: 10%;
+	display: inline-block;
+}
+.navigation ul{
+width: 60%;
+padding-left:  40%;
+}
+.navigation ul li{
+display: inline-block;
+margin-right: 2%;
+}
+
+
 .videoContainer{
 	display: flex;
 	flex-direction: column;
@@ -5,42 +25,48 @@
 }
 
 /* videoContainer-header */
-.videoContainer div:first-child{
+.videoContainer > div:first-child{
 	padding-left:100px; 
 	padding-right:100px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* videoContainer-heade */
 .videoContainer div:first-child span{
 	color: white;
+
 }
 
 
 .videoContainer-videoContents{
 	display: flex;
 	justify-content: space-between;
-	height: 500px;
-	padding-left:100px; 
-	padding-right:100px; 
-	padding-bottom: 100px;
+	height: 300px;
+	padding-left:5%; 
+	padding-right:5%; 
+	padding-bottom: 5%;
 }
 /* text inside videoContents */
-.videoContainer div:last-child div{
+.videoContainer > div:last-child div{
 	display: flex;
 	justify-content: center;
 	align-items:center;
 	background-color: white;
-	width: 40%;
+	width: 45%;
 }
 
 /* news section */
 .news{
-	background-color: gray;
+	background-color: #989bad;
 	display: flex;
 	flex-direction: column;
 }
 .news-header{
 	padding-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: blue;
 }
 .news-wrappers{
 	display: flex;
@@ -99,48 +125,103 @@
 
 /* media */
 .media{
-background-color: pink;
+background-color: #968c8c;
 display: flex;
 flex-direction: column;	
 }
-.news-header{
-	padding-left: 100px;
+.media-header{
+	padding-left:100px; 
+	padding-right:100px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .media-wrappers{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	height: 700px;
 	padding-left: 2%;
 	padding-right: 2%;
+	margin-bottom: 5%;
 }
-
-.media-wrappers div:first-child{
+/*pirvelive shvili oxond ushalo shvili unda iyos media-wrapperis anu pirveli donis div-s mimartavs*/
+.media-wrappers > div:first-child{
 	width: 44%;
-	height: 500px;
+
 	display: flex;
+	flex-direction: column;
 	border: solid;
-	background-color: red;
+	background-color: white;
 }
-.media-wrappers div:last-child{
+.media-wrappers > div:last-child{
 	width: 44%;
-	height: 200px;
 	display: flex;
+	flex-direction: column;
 	border: solid;
-	background-color: red;
+	background-color: white;
+}
+
+.media-wrappers > div:first-child div:nth-child(1){
+color: blue;
+padding-left: 50px;
+}
+.media-wrappers > div:first-child div:nth-child(2) {
+display: flex;
+height: 100px;
+}
+
+.hand-click{
+height: 100%;
+width: 30%;
+background-image:url("../images/hand-click.jpg");
+background-size: cover;
+}
+
+.media-wrappers > div:first-child div:nth-child(3){
+color: blue;
+text-align: right;
+margin-right: 2%;
+}
+
+
+/*############  igive marjvena mxares */
+
+.media-wrappers > div:last-child div:nth-child(1){
+color: blue;
+padding-left: 50px;
+}
+.media-wrappers > div:last-child div:nth-child(2) {
+display: flex;
+height: 100px;
+}
+
+.phone{
+height: 100%;
+width: 30%;
+background-image:url("../images/phone.jpg");
+background-size: cover;
+}
+
+.media-wrappers > div:last-child div:nth-child(3){
+color: blue;
+text-align: right;
+margin-right: 2%;
+}
+.footer{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+ 	justify-content:space-between; 
+}
+.footer div{
+	display: inline-block;
 }
 
 
 
-/* .media-wrappers div:nth-child(2){
-	width: 44%;
-	height: 500px;
-	display: flex:;
-	border: solid;
-} */
 
-/* shvili phototi da textit */
+
+
+
 
 
 
